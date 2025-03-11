@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王军舰的个人空间</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="glass-nav">
+        <nav>
+            <div class="nav-container">
+                <div class="logo">WJJ</div>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 首页轮播区 -->
+        <section id="home" class="hero-section">
+            <div class="carousel">
+                <div class="carousel-items">
+                    <!-- 轮播图片将通过JS动态添加 -->
+                </div>
+                <div class="carousel-text glass-card">
+                    <h1>探索我的多元世界</h1>
+                    <p class="subtitle">摄影 · 设计 · 创作</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn primary glass-btn">查看作品</a>
+                        <a href="#about" class="btn secondary glass-btn">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about" class="about-section fade-in">
+            <div class="section-container">
+                <h2>关于我</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-card">
+                        <p class="lead">热爱创作，专注于视觉设计与数字艺术</p>
+                        <p>作为一名跨界创作者，我致力于通过镜头、设计和文字，捕捉生活中的美好瞬间，创造独特的视觉体验。</p>
+                        <div class="tags">
+                            <span class="tag">摄影师</span>
+                            <span class="tag">设计师</span>
+                            <span class="tag">作家</span>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/profile.jpg" alt="个人照片" class="glass-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品展示 -->
+        <section id="portfolio" class="portfolio-section fade-in">
+            <div class="section-container">
+                <h2>作品集</h2>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="photo">摄影</button>
+                    <button class="filter-btn" data-filter="design">设计</button>
+                    <button class="filter-btn" data-filter="writing">文字</button>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- 作品将通过JS动态添加 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" class="contact-section fade-in">
+            <div class="section-container">
+                <h2>与我联系</h2>
+                <div class="contact-container">
+                    <div class="contact-info glass-card">
+                        <h3>让我们开始对话</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form glass-card">
+                        <input type="text" placeholder="您的名字" required>
+                        <input type="email" placeholder="您的邮箱" required>
+                        <textarea placeholder="请输入您的留言" required></textarea>
+                        <button type="submit" class="btn primary glass-btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-logo">WJJ</div>
+            <p>&copy; 2024 王军舰. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
